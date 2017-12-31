@@ -16,10 +16,10 @@
 
 .ui-hue();
 
-@text-color                          : hsl(0, 0%, 26%);
-@text-color-subtle                   : hsl(0, 0%, 60%);
-@text-color-highlight                : hsl(0, 0%, 0%);
-@text-color-selected                 : hsl(0, 0%, 100%);
+@text-color                          : hsl(0, 1%, 52%);
+@text-color-subtle                   : hsl(0, 0%, 37%);
+@text-color-highlight                : hsl(0, 1%, 64%);
+@text-color-selected                 : hsl(0, 0%, 80%);
 
 // Colors taken from https://developer.apple.com/macos/human-interface-guidelines/visual-design/color/
 @text-color-info                     : hsl(211, 100%, 51%);
@@ -37,22 +37,22 @@
 @background-color-success            : @text-color-success;
 @background-color-warning            : @text-color-warning;
 @background-color-error              : @text-color-error;
-@background-color-highlight          : hsl(0, 0%, 85%);
+@background-color-highlight          : hsl(0, 0%, 30%);
 @background-color-selected           : @text-color-info;
 
-@app-background-color                : hsl(0, 0%, 80%);
+@app-background-color                : hsl(0, 0%, 5%);
 
-@base-background-color               : hsl(0, 0%, 92%);
-@base-border-color                   : hsl(0, 0%, 78%);
+@base-background-color               : hsl(0, 0%, 12%);
+@base-border-color                   : hsl(0, 0%, 15%);
 @base-border-color-transparent       : hsla(0, 0%, 0%, 0.2);
 
 @pane-item-background-color          : @base-background-color;
 @pane-item-border-color              : @base-border-color;
 
-@input-background-color              : hsl(0, 0%, 100%);
+@input-background-color              : hsl(0, 0%, 5%);
 @input-border-color                  : fadeout(@base-border-color, 10%);
-@input-border-color-active           : hsl(211, 58%, 70%);
-@input-outline-color-active          : hsl(210, 70%, 74%);
+@input-border-color-active           : hsl(212, 19%, 30%);
+@input-outline-color-active          : hsl(210, 24%, 49%);
 
 @tool-panel-background-color         : @base-background-color;
 @tool-panel-border-color             : @base-border-color;
@@ -60,23 +60,23 @@
 @panel-heading-background-color      : hsl(0, 0%, 76%);
 @panel-heading-border-color          : transparent;
 
-@overlay-background-color            : hsl(0, 0%, 92%);
+@overlay-background-color            : hsl(0, 0%, 8%);
 @overlay-border-color                : @base-border-color;
 
 @button-background-color             : @input-background-color;
 @button-background-color-selected    : @button-background-color;
-@button-border-color                 : hsl(0, 0%, 82%);
-@button-border-color--bottom         : hsl(0, 0%, 70%);
+@button-border-color                 : hsl(0, 0%, 15%);
+@button-border-color--bottom         : hsl(0, 0%, 10%);
 @button-text-color                   : @text-color;
 @button-text-color-inverted          : @text-color-selected;
 
-@tab-bar-border-color                : hsl(0, 0%, 54%);
+@tab-bar-border-color                : hsl(0, 0%, 15%);
 @tab-bar-border-color-transparent    : hsla(0, 0%, 0%, 0.3);
-@tab-background-color                : hsl(0, 0%, 70%);
+@tab-background-color                : hsl(0, 0%, 13%);
 @tab-bar-background-color            : @tab-background-color;
-@tab-background-color-active         : hsl(0, 0%, 82%);
+@tab-background-color-active         : hsl(0, 0%, 12%);
 @tab-bar-background-color--blurred   : @tab-background-color-active;
-@tab-background-color-hover          : hsl(0, 0%, 65%);
+@tab-background-color-hover          : hsl(0, 0%, 18%);
 @tab-border-color                    : @tab-bar-border-color;
 @tab-text-color                      : @text-color-highlight;
 
@@ -90,9 +90,9 @@
 @status-bar-background-color         : @tab-background-color-active;
 @status-bar-border-color             : @tab-bar-border-color-transparent;
 
-@tree-view-background-color          : transparent;
+@tree-view-background-color          : hsl(0%, 0%, 13%);
 @tree-view-border-color              : @tab-bar-border-color-transparent;
-@tree-view-background-color-highlight: linear-gradient(to right, rgba(0,0,0, 0.18), rgba(0,0,0, 0.15), rgba(0,0,0, 0.22));
+@tree-view-background-color-highlight: linear-gradient(to right, rgba(0,0,0, 0.38), rgba(0,0,0, 0.35), rgba(0,0,0, 0.42));
 
 @ui-site-color-1                     : @background-color-success; // green
 @ui-site-color-2                     : @background-color-info; // blue
